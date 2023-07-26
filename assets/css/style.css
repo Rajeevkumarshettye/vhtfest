@@ -55,6 +55,7 @@ h6 {
 }
 #vhtlogo{
   width:40%;
+  margin: 10%
 }
 .back-to-top i {
   font-size: 24px;
@@ -439,7 +440,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)), url("../img/hero-bg.jpg") top center;
+  background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)), url("../img/vasavi hostel trust.jpg") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -447,7 +448,7 @@ h6 {
 
 #hero .hero-container {
   position: absolute;
-  bottom: 0;
+  bottom: 25%;
   top: 0;
   left: 0;
   right: 0;
@@ -460,16 +461,18 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
+  font-size: 74px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
   color: #fff;
-  text-shadow: -1px 0 2px #2f4d5a;
+  //text-shadow: -1px 0 2px #2f4d5a;
+  text-shadow: 2px 2px #000000;
 }
 
 #hero h2 {
   color: #fff;
+  margin-top:0.5%;
   margin-bottom: 50px;
   font-size: 20px;
   text-transform: uppercase;
